@@ -38,7 +38,7 @@ if you want to be able to do this anywhere but don't feel like sticking the `gen
 
 ```bash
 lt() {                              # doesn't have to be lt; can be whatever name you want (lt is short and easy to type tho)
-    exec python ~/generator.py $1   # make sure that ~/generator.py is replaced by the path to wherever you put generator.py
+    python ~/generator.py $1   # make sure that ~/generator.py is replaced by the path to wherever you put generator.py
 }                                   
 ```
 
