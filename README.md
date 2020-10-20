@@ -31,7 +31,7 @@ obviously i need an example; otherwise, nobody's gonna be interested. well, here
 python generator.py "\int_{-\infty}^\infty \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \text{dx} = 1"
 ```
 
-![output of the above](https://raw.githubusercontent.com/integralLeft/sent-latex/master/output.png)
+![output of the above](https://raw.githubusercontent.com/integralLeft/cli-latex/main/output.png)
 
 ## extra fun
 if you want to be able to do this anywhere but don't feel like sticking the `generator.py` file in literally every single directory, you could add the generator file to your `$PATH` (but that is probably a pain or something) OR you could use the handy dandy bash script i wrote to (a) make it shorter to type (like who tf wants to type `python generator.py` every time) and (b) make it available everywhere!!!
