@@ -48,5 +48,6 @@ an example call of the above function could be `lt "x^2"`, which would do exactl
 ## to-do
 * add (expanded) package functionality via optional runtime arguments
 * fix the problems that this would inevitably create for the bash function implementation
+* figure out how to use `dmenu` for even quicker and easier use
  
 
