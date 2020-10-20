@@ -2,13 +2,9 @@
 
 import sys, os
 
-# Generate the LaTeX png, store it in the user's clipboard
-# Reads user input
+## Generates the LaTeX png, stores it in the user's clipboard
 
-# print("Number of arguments:", len(sys.argv), "arguments.")
-# print("Argument List:", str(sys.argv))
-
-## read user input (argument) as latex
+## read user input (argument) as a latex equation
 latex_equation = "$$" + str(sys.argv[1]) + "$$"
 
 ## skeleton for latex .tex file
