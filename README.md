@@ -37,7 +37,7 @@ python generator.py "\int_{-\infty}^\infty \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{
 if you want to be able to do this anywhere but don't feel like sticking the `generator.py` file in literally every single directory, you could add the generator file to your `$PATH` (but that is probably a pain or something) OR you could add the following to your `~/.zshrc` (or `~/.bashrc` if you haven't ascended yet) file:
 
 ```bash
-lt() {                              # doesn't have to be lt; can be whatever name you want (lt is short and easy to type tho)
+lt() {                         # doesn't have to be lt; can be whatever name you want (lt is short and easy to type tho)
     python ~/generator.py $1   # make sure that ~/generator.py is replaced by the path to wherever you put generator.py
 }                                   
 ```
